@@ -1,12 +1,11 @@
-// Assignment code here
 var lowChar = "abcdefghijklmnopqrstuvwxyz".split("");
 var upChar = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 var numChar = "0123456789".split("");
 var specChar = "!'#$%&()*+,-./:;<=>?@[]^_`{|}~".split("");
-// Get references to the #generate element
+
 var generateBtn = document.querySelector("#generate");
 
-// Write password to the #password input
+
 function writePassword() {
   var prePassword = [];
   var postPassword = "";
@@ -46,14 +45,5 @@ function writePassword() {
   document.getElementById("password").innerHTML = postPassword
 }
 
-
-
-// Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
-/*if else userchoice.length < 8 {
-  window.alert("Your password must be atleast 8 characters")
-  return
-};*/
-
-//document.getElementById("password").value = password;
