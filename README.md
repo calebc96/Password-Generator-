@@ -20,4 +20,4 @@ The following image shows the web application's appearance
 # Live Application URL
 https://calebcarnett.github.io/Password-Generator-/
 # Screenshot 
-
+![image](https://user-images.githubusercontent.com/111102789/199147168-25b2889f-aced-47a9-9ebf-334bee15955e.png)
